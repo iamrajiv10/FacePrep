@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  position: fixed;
+  background-color: #282c34;
+}
+
+.logout-button {
+  display: block;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: auto;
+  color: bisque;
+  float: right;
+}
